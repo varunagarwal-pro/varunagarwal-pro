@@ -1,6 +1,10 @@
 <!-- Profile README for github.com/varunagarwal-pro -->
 
 <div align="center">
+  <img src="assets/profile-banner.svg" alt="Varun Agarwal — Architecting Scalable Systems, Executing with Clarity" width="100%">
+</div>
+
+<div align="center">
 
 # Varun Agarwal
 
@@ -69,11 +73,6 @@ Self-hosted services, DNS operations, secure network design, multi-node administ
 A companion application for managing multiple Technitium DNS servers. The project brings operational workflows together, including query-log analysis, domain controls, scheduling, alerts, and authentication.
 
 **Engineering themes:** DNS operations · Security-conscious access · Operational tooling · Performance
-
-### 📺 [Blokada-TV](https://github.com/varunagarwal-pro/Blokada-TV)
-An Android TV-focused project exploring television-friendly navigation, application integration, and deployment workflows.
-
-**Engineering themes:** Android TV · Remote navigation · Application integration · CI/CD
 
 ### 🧠 [Agent Skills](https://github.com/varunagarwal-pro/agent-skills)
 Reusable workflows for AI coding agents, based on upstream open-source work. The repository should be read alongside its upstream attribution and license.
