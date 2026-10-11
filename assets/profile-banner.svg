@@ -1,27 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="420" viewBox="0 0 1600 420" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="400" viewBox="0 0 1600 400" role="img" aria-labelledby="title desc">
 <title id="title">Varun Agarwal — Architecting Scalable Systems</title>
-<desc id="desc">A dark navy and gold technology banner representing enterprise systems, automation, AI, and global infrastructure.</desc>
+<desc id="desc">Minimal executive technology banner with abstract global network connections in navy, blue and gold.</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07111f"/><stop offset=".55" stop-color="#101d32"/><stop offset="1" stop-color="#050a12"/></linearGradient>
-  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#f7d774"/><stop offset="1" stop-color="#c89a31"/></linearGradient>
-  <radialGradient id="glow"><stop stop-color="#1c4770" stop-opacity=".7"/><stop offset="1" stop-color="#07111f" stop-opacity="0"/></radialGradient>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07111e"/><stop offset=".6" stop-color="#0a1b2c"/><stop offset="1" stop-color="#050b13"/></linearGradient>
+ <radialGradient id="halo"><stop stop-color="#1d5275" stop-opacity=".65"/><stop offset="1" stop-color="#07111e" stop-opacity="0"/></radialGradient>
+ <linearGradient id="gold"><stop stop-color="#f6d878"/><stop offset="1" stop-color="#d59b2e"/></linearGradient>
 </defs>
-<rect width="1600" height="420" rx="18" fill="url(#bg)"/>
-<ellipse cx="1280" cy="180" rx="440" ry="340" fill="url(#glow)"/>
-<g stroke="#4b739b" stroke-opacity=".35" fill="none">
- <path d="M900 40L1060 110 1190 60 1330 130 1490 75M880 155L1030 210 1160 165 1300 240 1515 180M920 300L1080 260 1210 330 1360 270 1530 330M1060 110L1030 210 1080 260M1190 60L1160 165 1210 330M1330 130L1300 240 1360 270M1490 75L1515 180 1530 330"/>
- <circle cx="1060" cy="110" r="5" fill="#f2c65d"/><circle cx="1190" cy="60" r="4" fill="#f2c65d"/><circle cx="1330" cy="130" r="5" fill="#f2c65d"/><circle cx="1030" cy="210" r="4" fill="#f2c65d"/><circle cx="1300" cy="240" r="5" fill="#f2c65d"/><circle cx="1210" cy="330" r="4" fill="#f2c65d"/><circle cx="1515" cy="180" r="5" fill="#f2c65d"/>
+<rect width="1600" height="400" rx="16" fill="url(#bg)"/>
+<ellipse cx="1280" cy="190" rx="440" ry="350" fill="url(#halo)"/>
+<g fill="none" stroke-linecap="round">
+ <g stroke="#3986b7" stroke-opacity=".45" stroke-width="1.5">
+  <path d="M870 320 Q1090 30 1290 90 T1580 40"/><path d="M930 390 Q1130 90 1370 170 T1590 130"/>
+  <path d="M1020 390 Q1200 190 1420 260 T1590 240"/><path d="M1100 20 Q1190 180 1290 90 T1510 15"/>
+  <path d="M1190 390 Q1300 260 1390 330 T1580 300"/>
+ </g>
+ <g stroke="url(#gold)" stroke-width="2" stroke-opacity=".8">
+  <path d="M1000 345 Q1130 170 1255 155 T1515 65"/><path d="M1080 390 Q1210 240 1360 215 T1590 160"/>
+ </g>
 </g>
-<g fill="#d6e4f4" fill-opacity=".1" stroke="#8eb4d8" stroke-opacity=".4">
- <rect x="1100" y="95" width="82" height="52" rx="7"/><rect x="1255" y="205" width="94" height="60" rx="7"/><rect x="1400" y="105" width="90" height="55" rx="7"/><rect x="1115" y="275" width="92" height="48" rx="7"/>
+<g fill="#f5c85e">
+ <circle cx="1000" cy="345" r="4"/><circle cx="1255" cy="155" r="4"/><circle cx="1515" cy="65" r="4"/><circle cx="1360" cy="215" r="4"/><circle cx="1290" cy="90" r="3"/><circle cx="1420" cy="260" r="3"/>
 </g>
-<g fill="#e5edf7" fill-opacity=".7"><rect x="1113" y="109" width="55" height="4" rx="2"/><rect x="1113" y="121" width="39" height="4" rx="2"/><rect x="1269" y="220" width="64" height="4" rx="2"/><rect x="1269" y="233" width="46" height="4" rx="2"/><rect x="1414" y="120" width="58" height="4" rx="2"/><rect x="1414" y="133" width="40" height="4" rx="2"/></g>
-<rect x="76" y="68" width="6" height="275" rx="3" fill="url(#gold)"/>
-<text x="112" y="118" font-family="Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" letter-spacing="5" fill="#e6c66d">TECHNOLOGY • SYSTEMS • EXECUTION</text>
-<text x="108" y="190" font-family="Segoe UI,Arial,sans-serif" font-size="57" font-weight="700" fill="#f4f7fb">VARUN AGARWAL</text>
-<text x="112" y="240" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="600" fill="#f0c75e">Architecting Scalable Systems</text>
-<text x="112" y="278" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="600" fill="#dbe7f5">Executing with Clarity</text>
-<text x="112" y="326" font-family="Segoe UI,Arial,sans-serif" font-size="17" fill="#aabbd0">Enterprise programs  /  Automation  /  AI systems  /  Cloud infrastructure</text>
-<path d="M112 356H640" stroke="url(#gold)" stroke-width="2" stroke-opacity=".8"/>
-<text x="112" y="387" font-family="Segoe UI,Arial,sans-serif" font-size="14" letter-spacing="2" fill="#8fa7c2">STRATEGY INTO SYSTEMS. COMPLEXITY INTO OUTCOMES.</text>
+<g fill="#a8d9f6" fill-opacity=".8"><circle cx="1130" cy="170" r="3"/><circle cx="1370" cy="170" r="3"/><circle cx="1580" cy="240" r="3"/><circle cx="1390" cy="330" r="3"/></g>
+<g fill="none" stroke="#8bb8d8" stroke-opacity=".25">
+ <path d="M1090 50V350M1190 30V370M1290 25V365M1390 35V370M1490 20V360"/>
+ <path d="M930 100H1580M900 180H1580M890 260H1580M930 340H1580"/>
+</g>
+<rect x="82" y="64" width="5" height="270" rx="2.5" fill="url(#gold)"/>
+<text x="116" y="92" font-family="Arial,Helvetica,sans-serif" font-size="17" letter-spacing="5" fill="#eac766">TECHNOLOGY  ·  SYSTEMS  ·  EXECUTION</text>
+<text x="112" y="166" font-family="Arial,Helvetica,sans-serif" font-size="49" font-weight="700" fill="#f4f7fb">Architecting Scalable Systems</text>
+<text x="112" y="222" font-family="Arial,Helvetica,sans-serif" font-size="49" font-weight="700" fill="#efbd4d">Executing with Clarity</text>
+<text x="116" y="270" font-family="Arial,Helvetica,sans-serif" font-size="20" fill="#c1cfdf">Enterprise leadership · Automation · Compliance · AI systems</text>
+<path d="M116 307H600" stroke="url(#gold)" stroke-width="2" stroke-opacity=".75"/>
+<text x="116" y="338" font-family="Arial,Helvetica,sans-serif" font-size="14" letter-spacing="2.5" fill="#8ea7c0">STRATEGY INTO SYSTEMS. COMPLEXITY INTO OUTCOMES.</text>
 </svg>
