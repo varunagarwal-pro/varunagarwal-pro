@@ -6,10 +6,6 @@
 
 <div align="center">
 
-# Varun Agarwal
-
-### Architecting Scalable Systems · Executing with Clarity
-
 **Enterprise Program Leadership · Systems Architecture · AI & Automation**
 
 *Turning complex operational challenges into secure, scalable systems and measurable business outcomes.*
