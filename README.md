@@ -1,7 +1,7 @@
 <!-- Profile README for github.com/varunagarwal-pro -->
 
 <div align="center">
-  <img src="assets/01-Github.png" alt="Varun Agarwal — Architecting Scalable Systems, Executing with Clarity" width="100%">
+  <img src="assets/profile-banner.svg" alt="Varun Agarwal — Architecting Scalable Systems, Executing with Clarity" width="100%">
 </div>
 
 <div align="center">
