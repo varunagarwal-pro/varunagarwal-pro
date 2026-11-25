@@ -118,7 +118,7 @@ AI-assisted engineering · Local LLMs · Agentic workflows · Cloud infrastructu
 <!-- Guestbook -->
 | Name | Date | Message |
 |---|---|---|
-| *No entries yet* | — | Leave a comment on the **Guestbook 📖** issue to sign! |
+|[<img src="https://avatars.githubusercontent.com/u/19989216?s=48&u=676b3dee65d2be716bf5cf486c5dea7772738add&v=4" alt="varunagarwal-pro" width="48" /><br />varunagarwal-pro](https://github.com/varunagarwal-pro)|2026-11-25 11:46 UTC<br />[Comment](https://github.com/varunagarwal-pro/varunagarwal-pro/issues/1#issuecomment-7161489155)|Welcome to my GitHub profile! Feel free to say hi or share what you&#39;re building.|
 <!-- /Guestbook -->
 
 ## 🤝 Connect
