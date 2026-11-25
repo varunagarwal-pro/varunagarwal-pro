@@ -14,6 +14,10 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/varunagarwalz/)
 [![GitHub](https://img.shields.io/badge/GitHub-Projects-181717?style=for-the-badge&logo=github)](https://github.com/varunagarwal-pro)
 
+<br />
+
+<img src="assets/clippy-assistant.svg" alt="Clippy Assistant — It looks like you're exploring my profile. Check out the projects below, or sign the Guestbook!" width="440" />
+
 </div>
 
 ---
@@ -40,18 +44,11 @@ My professional portfolio brings together the broader career story and project c
 
 ## 🧭 What I Work On
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
 ### 🏢 Enterprise Programs & Governance
 Cross-functional program delivery, global supplier readiness, auditability, regulatory compliance, and operational risk.
 
 ### ⚙️ Automation & Process Engineering
 Workflow automation, ERP-connected processes, reporting, scripting, and reducing repetitive manual work.
-
-</td>
-<td width="50%" valign="top">
 
 ### 🤖 AI & Agentic Engineering
 Practical LLM workflows, AI coding assistants, reusable agent skills, and AI-enabled knowledge and compliance systems.
@@ -59,16 +56,32 @@ Practical LLM workflows, AI coding assistants, reusable agent skills, and AI-ena
 ### ☁️ Systems & Infrastructure
 Self-hosted services, DNS operations, secure network design, multi-node administration, and infrastructure automation.
 
-</td>
-</tr>
-</table>
-
 ## 🛠️ Selected Projects
+
+### 🛡️ [SentinelCore](https://github.com/varunagarwal-pro/SentinelCore)
+Multi-cloud infrastructure and zero-trust operations across Oracle Cloud and Google Cloud, integrating Technitium PISG DNS, Layer-4 DoH3/QUIC, CrowdSec IPS, `nftables`, and triangular encrypted backups.
+
+**Engineering themes:** Multi-cloud architecture · Zero-trust networking · Infrastructure automation
 
 ### 🌐 [Technitium DNS Companion](https://github.com/varunagarwal-pro/Technitium-DNS-Companion)
 A companion application for managing multiple Technitium DNS servers. The project brings operational workflows together, including query-log analysis, domain controls, scheduling, alerts, and authentication.
 
 **Engineering themes:** DNS operations · Security-conscious access · Operational tooling · Performance
+
+### 🧹 [FluentCleaner](https://github.com/varunagarwal-pro/FluentCleaner)
+Modern Windows disk and privacy maintenance utility built on C# / .NET 10 and WinUI 3 with `winapp2.ini` rule parsing, SQLite `VACUUM` compaction, and zero telemetry.
+
+**Engineering themes:** Desktop engineering · Native performance · Privacy-first design
+
+### 🔒 [StreamShield](https://github.com/varunagarwal-pro/StreamShield)
+Android network security and privacy engine providing granular per-app network isolation, in-app WireGuard routing, and encrypted DNS transport.
+
+**Engineering themes:** Mobile security · Network isolation · Encrypted DNS
+
+### 🧵 [ThreadVision-Pro](https://github.com/varunagarwal-pro/ThreadVision-Pro)
+Cross-platform Flutter desktop ERP and production management client built for Vastrika Fashion & Boutique, interfacing with production ERPNext.
+
+**Engineering themes:** Enterprise ERP · Cross-platform UI · Operational workflows
 
 ### 🧠 [Agent Skills](https://github.com/varunagarwal-pro/agent-skills)
 Reusable workflows for AI coding agents, based on upstream open-source work. The repository should be read alongside its upstream attribution and license.
@@ -82,6 +95,12 @@ A private project to develop a structured quantitative trading research environm
 
 > Some repositories are forks or adaptations of upstream projects. Their individual READMEs and licenses identify the relevant origin and attribution.
 
+## 📈 GitHub Metrics
+
+<div align="center">
+  <img src="assets/github-metrics.svg" alt="GitHub activity, language breakdown, and repository metrics for varunagarwal-pro" width="100%" />
+</div>
+
 ## 🧠 Engineering Principles
 
 - **Understand before automating** — map the problem, constraints, and desired outcome first.
@@ -93,6 +112,14 @@ A private project to develop a structured quantitative trading research environm
 ## 🔭 Current Interests
 
 AI-assisted engineering · Local LLMs · Agentic workflows · Cloud infrastructure · Security & observability · Quantitative research
+
+## 📝 Guestbook ([add an entry](https://github.com/varunagarwal-pro/varunagarwal-pro/issues/1#issuecomment-new))
+
+<!-- Guestbook -->
+| Name | Date | Message |
+|---|---|---|
+| *No entries yet* | — | Leave a comment on the **Guestbook 📖** issue to sign! |
+<!-- /Guestbook -->
 
 ## 🤝 Connect
 

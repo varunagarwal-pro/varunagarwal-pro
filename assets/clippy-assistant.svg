@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="128" viewBox="0 0 440 128" role="img" aria-labelledby="clippy-title clippy-desc">
+  <title id="clippy-title">Clippy Assistant</title>
+  <desc id="clippy-desc">Animated paperclip assistant with blinking eyes and a speech bubble greeting profile visitors.</desc>
+  <defs>
+    <linearGradient id="wire" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e2eaf2"/>
+      <stop offset="50%" stop-color="#9cb0c4"/>
+      <stop offset="100%" stop-color="#6b8096"/>
+    </linearGradient>
+    <linearGradient id="bubble-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07111e"/>
+      <stop offset="100%" stop-color="#0d2136"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Animated Clippy Mascot -->
+  <g transform="translate(26, 12)">
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-3; 0,0" dur="2.8s" repeatCount="indefinite"/>
+      <!-- Paperclip body -->
+      <path d="M 38 92 L 38 26 C 38 11 58 11 58 26 L 58 80 C 58 92 42 92 42 80 L 42 34 C 42 26 52 26 52 34 L 52 74"
+            fill="none" stroke="url(#wire)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Outer paperclip loop -->
+      <path d="M 38 92 C 38 104 64 104 64 88 L 64 24 C 64 4 32 4 32 24 L 32 82"
+            fill="none" stroke="url(#wire)" stroke-width="5.5" stroke-linecap="round"/>
+
+      <!-- Eyebrows -->
+      <path d="M 31 32 Q 38 27 45 31" fill="none" stroke="#efbd4d" stroke-width="2.6" stroke-linecap="round">
+        <animate attributeName="d" values="M 31 32 Q 38 27 45 31; M 31 29 Q 38 24 45 28; M 31 32 Q 38 27 45 31" dur="4s" repeatCount="indefinite"/>
+      </path>
+      <path d="M 51 31 Q 58 27 65 32" fill="none" stroke="#efbd4d" stroke-width="2.6" stroke-linecap="round">
+        <animate attributeName="d" values="M 51 31 Q 58 27 65 32; M 51 28 Q 58 24 65 29; M 51 31 Q 58 27 65 32" dur="4s" repeatCount="indefinite"/>
+      </path>
+
+      <!-- Left Eye -->
+      <ellipse cx="39" cy="44" rx="6.5" ry="7.5" fill="#ffffff" stroke="#1e293b" stroke-width="1.5">
+        <animate attributeName="ry" values="7.5;7.5;0.6;7.5;7.5" keyTimes="0;0.46;0.5;0.54;1" dur="4.2s" repeatCount="indefinite"/>
+      </ellipse>
+      <circle cx="40.5" cy="44" r="2.8" fill="#0f172a">
+        <animate attributeName="cx" values="40.5;42;38;40.5" dur="4.2s" repeatCount="indefinite"/>
+      </circle>
+
+      <!-- Right Eye -->
+      <ellipse cx="57" cy="44" rx="6.5" ry="7.5" fill="#ffffff" stroke="#1e293b" stroke-width="1.5">
+        <animate attributeName="ry" values="7.5;7.5;0.6;7.5;7.5" keyTimes="0;0.46;0.5;0.54;1" dur="4.2s" repeatCount="indefinite"/>
+      </ellipse>
+      <circle cx="58.5" cy="44" r="2.8" fill="#0f172a">
+        <animate attributeName="cx" values="58.5;60;56;58.5" dur="4.2s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+
+  <!-- Speech Bubble -->
+  <g transform="translate(114, 18)">
+    <path d="M 16 0 H 296 A 12 12 0 0 1 308 12 V 76 A 12 12 0 0 1 296 88 H 16 A 12 12 0 0 1 4 76 V 52 L -12 44 L 4 36 V 12 A 12 12 0 0 1 16 0 Z"
+          fill="url(#bubble-bg)" stroke="#efbd4d" stroke-width="1.6"/>
+    <text x="22" y="34" font-family="Arial,Helvetica,sans-serif" font-size="13.5" font-weight="700" fill="#efbd4d">It looks like you're exploring my profile.</text>
+    <text x="22" y="57" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#c1cfdf">Check out the projects below, or sign the Guestbook!</text>
+  </g>
+</svg>

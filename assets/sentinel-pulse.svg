@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="76" viewBox="0 0 720 76" role="img" aria-labelledby="pulse-title pulse-desc">
+  <title id="pulse-title">Sentinel Labs — Systems Online</title>
+  <desc id="pulse-desc">Animated status bar in navy, gold, and steel blue highlighting Governance, Automation, AI Systems, and Infrastructure.</desc>
+  <defs>
+    <linearGradient id="card-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07111e"/>
+      <stop offset="100%" stop-color="#0a1b2c"/>
+    </linearGradient>
+    <linearGradient id="gold-line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#efbd4d" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#efbd4d" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#3986b7" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="718" height="74" rx="10" fill="url(#card-bg)" stroke="#1d5275" stroke-opacity="0.7" stroke-width="1.2"/>
+
+  <!-- Animated scanline -->
+  <rect x="-180" y="1" width="180" height="2" rx="1" fill="url(#gold-line)">
+    <animate attributeName="x" from="-180" to="720" dur="3.6s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Left pulsing node -->
+  <circle cx="34" cy="38" r="5" fill="#efbd4d">
+    <animate attributeName="opacity" values="1;0.45;1" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="34" cy="38" r="5" fill="none" stroke="#efbd4d" stroke-width="1.5">
+    <animate attributeName="r" values="5;14" dur="2.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.8;0" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Status text -->
+  <text x="58" y="31" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="2.2" fill="#efbd4d">SENTINEL LABS  ·  SYSTEMS ONLINE</text>
+  <text x="58" y="51" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#c1cfdf">Governance  ·  Automation  ·  AI Systems  ·  Multi-Cloud Infrastructure</text>
+
+  <!-- Right 3-node telemetry pulse -->
+  <g transform="translate(626, 38)">
+    <line x1="0" y1="0" x2="26" y2="0" stroke="#3986b7" stroke-opacity="0.55" stroke-width="1.5"/>
+    <line x1="26" y1="0" x2="52" y2="0" stroke="#3986b7" stroke-opacity="0.55" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="4" fill="#3986b7">
+      <animate attributeName="fill" values="#3986b7;#efbd4d;#3986b7" dur="2.4s" begin="0s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="26" cy="0" r="4" fill="#3986b7">
+      <animate attributeName="fill" values="#3986b7;#efbd4d;#3986b7" dur="2.4s" begin="0.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="52" cy="0" r="4" fill="#3986b7">
+      <animate attributeName="fill" values="#3986b7;#efbd4d;#3986b7" dur="2.4s" begin="1.6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

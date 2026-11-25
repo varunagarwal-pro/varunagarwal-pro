@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="84" viewBox="0 0 720 84" role="img" aria-labelledby="metrics-init-title metrics-init-desc">
+  <title id="metrics-init-title">GitHub Metrics — Awaiting First Workflow Run</title>
+  <desc id="metrics-init-desc">Placeholder card until .github/workflows/metrics.yml generates live GitHub metrics.</desc>
+  <rect x="1" y="1" width="718" height="82" rx="10" fill="#07111e" stroke="#1d5275" stroke-opacity="0.7" stroke-width="1.2"/>
+  <text x="28" y="34" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" fill="#efbd4d">GITHUB METRICS</text>
+  <text x="28" y="56" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#c1cfdf">Run the Metrics GitHub Action (.github/workflows/metrics.yml) to populate live repository and language telemetry.</text>
+</svg>
