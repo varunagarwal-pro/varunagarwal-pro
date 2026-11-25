@@ -16,7 +16,7 @@
 
 <br />
 
-<a href="https://github.com/varunagarwal-pro"><img src="assets/clippy-assistant.webp" alt="Cheeky Clippy Assistant — Snooping on my repos? Relax, the spicy ones are private." width="480" /></a>
+<a href="https://github.com/varunagarwal-pro"><img src="assets/clippy-assistant.webp" alt="Cheeky Clippy Assistant — Snooping on my repos? Relax, the spicy ones are private." width="100%" /></a>
 
 </div>
 
