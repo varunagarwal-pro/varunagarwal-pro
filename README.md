@@ -58,13 +58,13 @@ Self-hosted services, DNS operations, secure network design, multi-node administ
 
 ## 🛠️ Selected Projects
 
-### 🛡️ [SentinelCore](https://github.com/varunagarwal-pro/SentinelCore)
-Multi-cloud infrastructure and zero-trust operations across Oracle Cloud and Google Cloud, integrating Technitium PISG DNS, Layer-4 DoH3/QUIC, CrowdSec IPS, `nftables`, and triangular encrypted backups.
+### 🌐 [Technitium WebUI](https://github.com/varunagarwal-pro/Technitium-WebUI)
+A modern administration console for Technitium DNS Server with redesigned screens, per-client stats and actions, side-by-side cluster views, `Ctrl+K` navigation, light/dark themes, and mobile layout — zero backend or database required.
 
-**Engineering themes:** Multi-cloud architecture · Zero-trust networking · Infrastructure automation
+**Engineering themes:** DNS operations · Modern web UI · Zero-backend architecture
 
-### 🌐 [Technitium DNS Companion](https://github.com/varunagarwal-pro/Technitium-DNS-Companion)
-A companion application for managing multiple Technitium DNS servers. The project brings operational workflows together, including query-log analysis, domain controls, scheduling, alerts, and authentication.
+### 🛰️ [Technitium DNS Companion](https://github.com/varunagarwal-pro/Technitium-DNS-Companion)
+A multi-node companion application for managing Technitium DNS servers, bringing together query-log analysis, domain controls, scheduling, alerts, and authentication.
 
 **Engineering themes:** DNS operations · Security-conscious access · Operational tooling · Performance
 
@@ -73,20 +73,15 @@ Modern Windows disk and privacy maintenance utility built on C# / .NET 10 and Wi
 
 **Engineering themes:** Desktop engineering · Native performance · Privacy-first design
 
-### 🔒 [StreamShield](https://github.com/varunagarwal-pro/StreamShield)
-Android network security and privacy engine providing granular per-app network isolation, in-app WireGuard routing, and encrypted DNS transport.
+### 🛸 [SentinelOrbit](https://github.com/varunagarwal-pro/SentinelOrbit)
+Automated, zero-code-access GitHub Actions cache and workflow run pruner for keeping CI/CD repositories lean and predictable.
 
-**Engineering themes:** Mobile security · Network isolation · Encrypted DNS
+**Engineering themes:** CI/CD automation · Least-privilege security · Developer tooling
 
-### 🧵 [ThreadVision-Pro](https://github.com/varunagarwal-pro/ThreadVision-Pro)
-Cross-platform Flutter desktop ERP and production management client built for Vastrika Fashion & Boutique, interfacing with production ERPNext.
+### 🤖 [StealthBrowser-MCP](https://github.com/varunagarwal-pro/StealthBrowser-MCP)
+Stealth browser automation for AI agents over MCP and Chrome DevTools Protocol, supporting navigation, network hooks, DOM extraction, and UI workflows.
 
-**Engineering themes:** Enterprise ERP · Cross-platform UI · Operational workflows
-
-### 🧠 [Agent Skills](https://github.com/varunagarwal-pro/agent-skills)
-Reusable workflows for AI coding agents, based on upstream open-source work. The repository should be read alongside its upstream attribution and license.
-
-**Engineering themes:** AI-assisted development · Repeatable workflows · Engineering quality
+**Engineering themes:** AI & agentic tooling · MCP servers · Browser automation
 
 ### 📈 AstraQuant
 A private project to develop a structured quantitative trading research environment, spanning market data, technical analysis, strategy development, backtesting, and validation.
