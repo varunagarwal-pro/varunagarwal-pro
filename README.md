@@ -16,7 +16,7 @@
 
 <br />
 
-<a href="https://github.com/varunagarwal-pro"><img src="assets/clippy-assistant.webp" alt="Cheeky Clippy Assistant — Snooping on my repos? Relax, the spicy ones are private." width="100%" /></a>
+<a href="https://github.com/varunagarwal-pro#-guestbook"><img src="assets/clippy-assistant.webp" alt="Cheeky Clippy Assistant — Snooping on my repos? Relax, the spicy ones are private." width="100%" /></a>
 
 </div>
 
@@ -56,39 +56,24 @@ Practical LLM workflows, AI coding assistants, reusable agent skills, and AI-ena
 ### ☁️ Systems & Infrastructure
 Self-hosted services, DNS operations, secure network design, multi-node administration, and infrastructure automation.
 
+---
+
 ## 🛠️ Selected Projects
 
-### 🌐 [Technitium WebUI](https://github.com/varunagarwal-pro/Technitium-WebUI)
-A modern administration console for Technitium DNS Server with redesigned screens, per-client stats and actions, side-by-side cluster views, `Ctrl+K` navigation, light/dark themes, and mobile layout — zero backend or database required.
-
-**Engineering themes:** DNS operations · Modern web UI · Zero-backend architecture
-
-### 🛰️ [Technitium DNS Companion](https://github.com/varunagarwal-pro/Technitium-DNS-Companion)
-A multi-node companion application for managing Technitium DNS servers, bringing together query-log analysis, domain controls, scheduling, alerts, and authentication.
-
-**Engineering themes:** DNS operations · Security-conscious access · Operational tooling · Performance
-
-### 🧹 [FluentCleaner](https://github.com/varunagarwal-pro/FluentCleaner)
-Modern Windows disk and privacy maintenance utility built on C# / .NET 10 and WinUI 3 with `winapp2.ini` rule parsing, SQLite `VACUUM` compaction, and zero telemetry.
-
-**Engineering themes:** Desktop engineering · Native performance · Privacy-first design
-
-### 🛸 [SentinelOrbit](https://github.com/varunagarwal-pro/SentinelOrbit)
-Automated, zero-code-access GitHub Actions cache and workflow run pruner for keeping CI/CD repositories lean and predictable.
-
-**Engineering themes:** CI/CD automation · Least-privilege security · Developer tooling
-
-### 🤖 [StealthBrowser-MCP](https://github.com/varunagarwal-pro/StealthBrowser-MCP)
-Stealth browser automation for AI agents over MCP and Chrome DevTools Protocol, supporting navigation, network hooks, DOM extraction, and UI workflows.
-
-**Engineering themes:** AI & agentic tooling · MCP servers · Browser automation
-
-### 📈 AstraQuant
-A private project to develop a structured quantitative trading research environment, spanning market data, technical analysis, strategy development, backtesting, and validation.
-
-*The repository is private and is not linked here.*
+| Project | What It Does | Stack / Focus |
+|---|---|---|
+| 🌐 **[Technitium-WebUI](https://github.com/varunagarwal-pro/Technitium-WebUI)** | Zero-backend admin console for Technitium DNS with per-client stats, cluster views, `Ctrl+K`, and themes | `TypeScript · DNS Ops` |
+| 🛰️ **[Technitium-DNS-Companion](https://github.com/varunagarwal-pro/Technitium-DNS-Companion)** | Multi-node DNS companion for query-log analysis, domain controls, scheduling, and alerts | `DNS · Operational Tooling` |
+| 🧹 **[FluentCleaner](https://github.com/varunagarwal-pro/FluentCleaner)** | Transparent Windows disk & privacy cleaner with `winapp2.ini` rules and SQLite `VACUUM` | `C# · .NET 10 · WinUI 3` |
+| 🛸 **[SentinelOrbit](https://github.com/varunagarwal-pro/SentinelOrbit)** | Automated, zero-code-access GitHub Actions cache and workflow run pruner | `CI/CD · Security` |
+| 🤖 **[StealthBrowser-MCP](https://github.com/varunagarwal-pro/StealthBrowser-MCP)** | Stealth browser automation for AI agents over MCP and Chrome DevTools Protocol | `AI Agents · MCP · CDP` |
+| 🧠 **[AgentSkills-AddyOsmani](https://github.com/varunagarwal-pro/AgentSkills-AddyOsmani)** · **[MattPocock](https://github.com/varunagarwal-pro/AgentSkills-MattPocock)** | Production-grade, reusable engineering workflows and skills for AI coding agents | `Agentic Workflows` |
+| 🧵 **[ZigZagEmbroidery](https://github.com/varunagarwal-pro/ZigZagEmbroidery)** | Open-source SVG-to-machine-embroidery editor with AI agent creation via MCP | `Desktop · AI / MCP` |
+| 📈 **AstraQuant** *(Private)* | Quantitative trading research environment for market data, strategy backtesting, and validation | `Quant · Python` |
 
 > Some repositories are forks or adaptations of upstream projects. Their individual READMEs and licenses identify the relevant origin and attribution.
+
+---
 
 ## 📈 GitHub Metrics
 
