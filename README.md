@@ -16,7 +16,7 @@
 
 <br />
 
-<img src="assets/clippy-assistant.svg" alt="Cheeky Clippy Assistant — Snooping on my repos? Relax, the spicy ones are private." width="460" />
+<img src="assets/clippy-assistant.svg" alt="Cheeky Clippy Assistant — Snooping on my repos? Relax, the spicy ones are private." width="480" />
 
 </div>
 
