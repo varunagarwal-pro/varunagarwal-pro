@@ -1,60 +1,116 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="440" height="128" viewBox="0 0 440 128" role="img" aria-labelledby="clippy-title clippy-desc">
-  <title id="clippy-title">Clippy Assistant</title>
-  <desc id="clippy-desc">Animated paperclip assistant with blinking eyes and a speech bubble greeting profile visitors.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="136" viewBox="0 0 460 136" role="img" aria-labelledby="clippy-title clippy-desc">
+  <title id="clippy-title">Cheeky Clippy Assistant</title>
+  <desc id="clippy-desc">Animated paperclip assistant hopping, winking, raising an eyebrow, and cycling playful speech bubble quips.</desc>
   <defs>
     <linearGradient id="wire" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#e2eaf2"/>
+      <stop offset="0%" stop-color="#e8f0f8"/>
       <stop offset="50%" stop-color="#9cb0c4"/>
-      <stop offset="100%" stop-color="#6b8096"/>
+      <stop offset="100%" stop-color="#64788f"/>
     </linearGradient>
     <linearGradient id="bubble-bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#07111e"/>
       <stop offset="100%" stop-color="#0d2136"/>
     </linearGradient>
+    <linearGradient id="shimmer" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#efbd4d" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#efbd4d" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#3986b7" stop-opacity="0"/>
+    </linearGradient>
   </defs>
+
+  <!-- Ground shadow reacting to Clippy's hop -->
+  <ellipse cx="74" cy="121" rx="20" ry="3.5" fill="#07111e" opacity="0.35">
+    <animate attributeName="rx" values="20;14;20;16;20" dur="2.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.38;0.18;0.38;0.26;0.38" dur="2.6s" repeatCount="indefinite"/>
+  </ellipse>
 
   <!-- Animated Clippy Mascot -->
   <g transform="translate(26, 12)">
     <g>
-      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-3; 0,0" dur="2.8s" repeatCount="indefinite"/>
-      <!-- Paperclip body -->
-      <path d="M 38 92 L 38 26 C 38 11 58 11 58 26 L 58 80 C 58 92 42 92 42 80 L 42 34 C 42 26 52 26 52 34 L 52 74"
-            fill="none" stroke="url(#wire)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
-      <!-- Outer paperclip loop -->
-      <path d="M 38 92 C 38 104 64 104 64 88 L 64 24 C 64 4 32 4 32 24 L 32 82"
-            fill="none" stroke="url(#wire)" stroke-width="5.5" stroke-linecap="round"/>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-7; 0,0; 0,-3.5; 0,0" dur="2.6s" repeatCount="indefinite"/>
+      <g>
+        <animateTransform attributeName="transform" type="rotate" values="0 48 56; -5 48 56; 7 48 56; -3 48 56; 0 48 56" dur="5.2s" repeatCount="indefinite"/>
 
-      <!-- Eyebrows -->
-      <path d="M 31 32 Q 38 27 45 31" fill="none" stroke="#efbd4d" stroke-width="2.6" stroke-linecap="round">
-        <animate attributeName="d" values="M 31 32 Q 38 27 45 31; M 31 29 Q 38 24 45 28; M 31 32 Q 38 27 45 31" dur="4s" repeatCount="indefinite"/>
-      </path>
-      <path d="M 51 31 Q 58 27 65 32" fill="none" stroke="#efbd4d" stroke-width="2.6" stroke-linecap="round">
-        <animate attributeName="d" values="M 51 31 Q 58 27 65 32; M 51 28 Q 58 24 65 29; M 51 31 Q 58 27 65 32" dur="4s" repeatCount="indefinite"/>
-      </path>
+        <!-- Paperclip inner body -->
+        <path d="M 38 92 L 38 26 C 38 11 58 11 58 26 L 58 80 C 58 92 42 92 42 80 L 42 34 C 42 26 52 26 52 34 L 52 74"
+              fill="none" stroke="url(#wire)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <!-- Outer paperclip loop -->
+        <path d="M 38 92 C 38 104 64 104 64 88 L 64 24 C 64 4 32 4 32 24 L 32 82"
+              fill="none" stroke="url(#wire)" stroke-width="5.5" stroke-linecap="round"/>
 
-      <!-- Left Eye -->
-      <ellipse cx="39" cy="44" rx="6.5" ry="7.5" fill="#ffffff" stroke="#1e293b" stroke-width="1.5">
-        <animate attributeName="ry" values="7.5;7.5;0.6;7.5;7.5" keyTimes="0;0.46;0.5;0.54;1" dur="4.2s" repeatCount="indefinite"/>
-      </ellipse>
-      <circle cx="40.5" cy="44" r="2.8" fill="#0f172a">
-        <animate attributeName="cx" values="40.5;42;38;40.5" dur="4.2s" repeatCount="indefinite"/>
-      </circle>
+        <!-- Mischievous asymmetric eyebrows -->
+        <path d="M 30 31 Q 38 25 45 30" fill="none" stroke="#efbd4d" stroke-width="2.7" stroke-linecap="round">
+          <animate attributeName="d"
+                   values="M 30 31 Q 38 25 45 30; M 30 26 Q 38 18 45 27; M 30 26 Q 38 18 45 27; M 30 31 Q 38 25 45 30"
+                   keyTimes="0;0.35;0.6;1" dur="5.2s" repeatCount="indefinite"/>
+        </path>
+        <path d="M 51 30 Q 58 25 66 31" fill="none" stroke="#efbd4d" stroke-width="2.7" stroke-linecap="round">
+          <animate attributeName="d"
+                   values="M 51 30 Q 58 25 66 31; M 51 33 Q 58 31 66 34; M 51 33 Q 58 31 66 34; M 51 30 Q 58 25 66 31"
+                   keyTimes="0;0.35;0.6;1" dur="5.2s" repeatCount="indefinite"/>
+        </path>
 
-      <!-- Right Eye -->
-      <ellipse cx="57" cy="44" rx="6.5" ry="7.5" fill="#ffffff" stroke="#1e293b" stroke-width="1.5">
-        <animate attributeName="ry" values="7.5;7.5;0.6;7.5;7.5" keyTimes="0;0.46;0.5;0.54;1" dur="4.2s" repeatCount="indefinite"/>
-      </ellipse>
-      <circle cx="58.5" cy="44" r="2.8" fill="#0f172a">
-        <animate attributeName="cx" values="58.5;60;56;58.5" dur="4.2s" repeatCount="indefinite"/>
-      </circle>
+        <!-- Left Eye (stays wide, occasional quick blink) -->
+        <ellipse cx="39" cy="43" rx="6.5" ry="7.5" fill="#ffffff" stroke="#1e293b" stroke-width="1.5">
+          <animate attributeName="ry" values="7.5;7.5;0.7;7.5;7.5" keyTimes="0;0.84;0.88;0.92;1" dur="5.2s" repeatCount="indefinite"/>
+        </ellipse>
+        <circle cx="41" cy="43" r="2.9" fill="#0f172a">
+          <animate attributeName="cx" values="41;42.8;37.2;42.5;41" keyTimes="0;0.25;0.5;0.75;1" dur="5.2s" repeatCount="indefinite"/>
+        </circle>
+
+        <!-- Right Eye (cheeky wink!) -->
+        <ellipse cx="57" cy="43" rx="6.5" ry="7.5" fill="#ffffff" stroke="#1e293b" stroke-width="1.5">
+          <animate attributeName="ry" values="7.5;7.5;0.7;0.7;7.5;7.5" keyTimes="0;0.36;0.41;0.57;0.62;1" dur="5.2s" repeatCount="indefinite"/>
+        </ellipse>
+        <circle cx="59" cy="43" r="2.9" fill="#0f172a">
+          <animate attributeName="cx" values="59;60.8;55.2;60.5;59" keyTimes="0;0.25;0.5;0.75;1" dur="5.2s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.37;0.41;0.57;0.61;1" dur="5.2s" repeatCount="indefinite"/>
+        </circle>
+
+        <!-- Cheeky smirk -->
+        <path d="M 43 56 Q 49 59 55 55" fill="none" stroke="#efbd4d" stroke-width="2" stroke-linecap="round">
+          <animate attributeName="d"
+                   values="M 43 56 Q 49 59 55 55; M 42 56 Q 50 62 58 53; M 42 56 Q 50 62 58 53; M 43 56 Q 49 59 55 55"
+                   keyTimes="0;0.36;0.6;1" dur="5.2s" repeatCount="indefinite"/>
+        </path>
+
+        <!-- Wink sparkle glint -->
+        <path d="M 71 22 L 73 27 L 78 29 L 73 31 L 71 36 L 69 31 L 64 29 L 69 27 Z" fill="#efbd4d" opacity="0">
+          <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.38;0.48;0.6;1" dur="5.2s" repeatCount="indefinite"/>
+        </path>
+      </g>
     </g>
   </g>
 
   <!-- Speech Bubble -->
-  <g transform="translate(114, 18)">
-    <path d="M 16 0 H 296 A 12 12 0 0 1 308 12 V 76 A 12 12 0 0 1 296 88 H 16 A 12 12 0 0 1 4 76 V 52 L -12 44 L 4 36 V 12 A 12 12 0 0 1 16 0 Z"
+  <g transform="translate(116, 20)">
+    <path d="M 14 0 H 314 A 12 12 0 0 1 326 12 V 80 A 12 12 0 0 1 314 92 H 14 A 12 12 0 0 1 2 80 V 54 L -14 46 L 2 38 V 12 A 12 12 0 0 1 14 0 Z"
           fill="url(#bubble-bg)" stroke="#efbd4d" stroke-width="1.6"/>
-    <text x="22" y="34" font-family="Arial,Helvetica,sans-serif" font-size="13.5" font-weight="700" fill="#efbd4d">It looks like you're exploring my profile.</text>
-    <text x="22" y="57" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#c1cfdf">Check out the projects below, or sign the Guestbook!</text>
+
+    <!-- Top gold shimmer -->
+    <rect x="14" y="0" width="90" height="2" rx="1" fill="url(#shimmer)">
+      <animate attributeName="x" values="14;224;14" dur="4s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Quip 1 -->
+    <g opacity="1">
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.03;0.30;0.33;1" dur="10.5s" repeatCount="indefinite"/>
+      <text x="20" y="37" font-family="Arial,Helvetica,sans-serif" font-size="13.5" font-weight="700" fill="#efbd4d">Snooping on my repos?</text>
+      <text x="20" y="61" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#c1cfdf">Relax — the spicy ones are private.</text>
+    </g>
+
+    <!-- Quip 2 -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.33;0.36;0.63;0.66;1" dur="10.5s" repeatCount="indefinite"/>
+      <text x="20" y="37" font-family="Arial,Helvetica,sans-serif" font-size="13.5" font-weight="700" fill="#efbd4d">Enterprise architecture... or just vibes?</text>
+      <text x="20" y="61" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#c1cfdf">Either way, scroll down for both.</text>
+    </g>
+
+    <!-- Quip 3 -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.66;0.69;0.97;1" dur="10.5s" repeatCount="indefinite"/>
+      <text x="20" y="37" font-family="Arial,Helvetica,sans-serif" font-size="13.5" font-weight="700" fill="#efbd4d">Still haven't signed the Guestbook?</text>
+      <text x="20" y="61" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#c1cfdf">Bold move. Fix that down below.</text>
+    </g>
   </g>
 </svg>

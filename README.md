@@ -16,7 +16,7 @@
 
 <br />
 
-<img src="assets/clippy-assistant.svg" alt="Clippy Assistant — It looks like you're exploring my profile. Check out the projects below, or sign the Guestbook!" width="440" />
+<img src="assets/clippy-assistant.svg" alt="Cheeky Clippy Assistant — Snooping on my repos? Relax, the spicy ones are private." width="460" />
 
 </div>
 
