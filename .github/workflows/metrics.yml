@@ -35,3 +35,11 @@ jobs:
           plugin_lines: yes
           plugin_stars: yes
           plugin_stars_limit: 4
+          extras_css: |
+            svg { font-size: 17px !important; }
+            h1 { font-size: 24px !important; }
+            h2 { font-size: 19px !important; }
+            h3 { font-size: 17px !important; }
+            .repository .description, .repository .infos { font-size: 15px !important; }
+            .repository .name span:last-child { font-size: 12px !important; }
+            footer { font-size: 12px !important; }
