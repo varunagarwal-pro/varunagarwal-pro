@@ -98,7 +98,7 @@ A private project to develop a structured quantitative trading research environm
 ## 📈 GitHub Metrics
 
 <div align="center">
-  <a href="https://github.com/varunagarwal-pro"><img src="assets/github-metrics.svg" alt="GitHub activity, language breakdown, and repository metrics for varunagarwal-pro" width="100%" /></a>
+  <a href="https://github.com/varunagarwal-pro#-github-metrics"><img src="assets/github-metrics.svg" alt="GitHub activity, language breakdown, and repository metrics for varunagarwal-pro" width="100%" /></a>
 </div>
 
 ## 🧠 Engineering Principles
