@@ -1,7 +1,7 @@
 <!-- Profile README for github.com/varunagarwal-pro -->
 
 <div align="center">
-  <img src="assets/02-Github.png" alt="Varun Agarwal — Architecting Scalable Systems, Executing with Clarity" width="100%">
+  <a href="https://github.com/varunagarwal-pro"><img src="assets/02-Github.png" alt="Varun Agarwal — Architecting Scalable Systems, Executing with Clarity" width="100%"></a>
 </div>
 
 <div align="center">
@@ -16,7 +16,7 @@
 
 <br />
 
-<a><img src="assets/clippy-assistant.webp" alt="Cheeky Clippy Assistant — Snooping on my repos? Relax, the spicy ones are private." width="480" /></a>
+<a href="https://github.com/varunagarwal-pro"><img src="assets/clippy-assistant.webp" alt="Cheeky Clippy Assistant — Snooping on my repos? Relax, the spicy ones are private." width="480" /></a>
 
 </div>
 
@@ -98,7 +98,7 @@ A private project to develop a structured quantitative trading research environm
 ## 📈 GitHub Metrics
 
 <div align="center">
-  <img src="assets/github-metrics.svg" alt="GitHub activity, language breakdown, and repository metrics for varunagarwal-pro" width="100%" />
+  <a href="https://github.com/varunagarwal-pro"><img src="assets/github-metrics.svg" alt="GitHub activity, language breakdown, and repository metrics for varunagarwal-pro" width="100%" /></a>
 </div>
 
 ## 🧠 Engineering Principles
